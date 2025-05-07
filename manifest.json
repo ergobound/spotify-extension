@@ -1,10 +1,15 @@
 {
     "name": "Spotify copy text",
     "description": "Allows you to copy text on the Spotify.com website",
-    "version": "1.0",
+    "version": "1.1",
     "manifest_version": 3,
     "action": {
-      "default_icon": "copy.png"
+      "default_icon": {
+        "16": "copy16.png",
+        "32": "copy32.png",
+        "48": "copy48.png",
+        "128": "copy128.png"
+      }
     },
     "content_scripts": [
         {
